@@ -1,0 +1,23 @@
+:root {
+    --fuente-primaria: "Open Sans", sans-serif;
+    --fuente-secundaria: "PT Sans", sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /*Escala 1 rem = 10 px*/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuente-primaria);
+    font-weight: bold;
+    font-size: 3.8rem;
+    line-height: 1.5;
+}
