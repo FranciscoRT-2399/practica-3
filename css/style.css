@@ -160,6 +160,7 @@ img {
 @media(min-width: 768px) {
     .boton {
         display: inline-block;
+        margin: 2rem calc(40% - 1rem);
     }
 }
 
